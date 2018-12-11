@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add reset-css
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\composer;C:\php;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Alexander\AppData\Local\Microsoft\WindowsApps;C:\Users\Alexander\AppData\Roaming\Composer\vendor\bin;C:\Users\Alexander\AppData\Local\Yarn\bin;C:\Users\Alexander\AppData\Roaming\npm
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Alexander\Desktop\NewProjects\CityFormat\node_modules\node-sass\vendor\win32-x64-57\binding.node'
+
+npm manifest: 
+  {
+    "name": "Velest",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Velest",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Velest",
+    "license": "ISC",
+    "dependencies": {
+      "@fancyapps/fancybox": "^3.5.2",
+      "browser-sync": "^2.26.3",
+      "gulp": "^3.8.1",
+      "gulp-autoprefixer": "*",
+      "gulp-cssmin": "*",
+      "gulp-imagemin": "*",
+      "gulp-inject": "^3.0.0",
+      "gulp-pug": "^3.0.3",
+      "gulp-rename": "^1.2.2",
+      "gulp-rigger": "*",
+      "gulp-sass": "^3.1.0",
+      "gulp-sourcemaps": "*",
+      "gulp-svgmin": "^1.2.2",
+      "gulp-svgstore": "^5.0.5",
+      "gulp-uglify": "*",
+      "gulp-watch": "*",
+      "gulp.spritesmith": "^6.2.0",
+      "imagemin-pngquant": "*",
+      "jquery-form-validator": "^2.3.79",
+      "jquery-parallax.js": "^1.5.0",
+      "node-sass": "^4.9.4",
+      "owl.carousel": "^2.3.3",
+      "rimraf": "*"
+    },
+    "devDependencies": {
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-sass-lint": "^1.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
